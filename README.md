@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# To-Do List
 
-## Getting Started
+## Funcionalidades
 
-First, run the development server:
+1. **Adicionar tarefas**
+2. **Marcar/desmarcar tarefas como concluídas**
+3. **Excluir tarefas**
+4. **Persistência no localStorage**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Configuração do Ambiente
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Clonar o repositório:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   git clone https://github.com/Igorggwp/todo-list.git
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Instalar dependências:**
 
-## Learn More
+   Navegue até o diretório do projeto e instale as dependências com os seguintes comandos:
 
-To learn more about Next.js, take a look at the following resources:
+   cd todo-list  
+   npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Iniciar o servidor:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   Execute o comando para iniciar o servidor de desenvolvimento:
 
-## Deploy on Vercel
+   npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. O projeto estará disponível em http://localhost:3000.
