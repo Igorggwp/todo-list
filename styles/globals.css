@@ -1,0 +1,25 @@
+:root {
+  --primary: #4348DD;
+  --secondary: #ffffff;
+  --dark: #333333;
+  --medium: #555555;
+  --light: #888888;
+  --lighter: #ccc;
+  --background: rgb(41, 41, 41);
+  --input-background: rgb(89, 89, 89);
+  --status-line: #444;
+  --font-regular: 'Inter', sans-serif;
+  --font-medium: 'Inter', sans-serif;
+  --font-semibold: 'Inter', sans-serif;
+  --font-bold: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  font-family: var(--font-regular);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

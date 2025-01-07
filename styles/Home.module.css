@@ -1,0 +1,161 @@
+.container {
+  margin-top: 50%;
+}
+
+/* Input */
+
+.inputContainer {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 12%;
+}
+
+.input {
+  flex-grow: 1;
+  padding: 15px;
+  font-family: var(--font-regular);
+  border-radius: 6px;
+  background-color: var(--input-background);
+  color: var(--secondary);
+  border: none;
+  text-align: left;
+  min-width: 400px;
+}
+
+.createBtn {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: var(--font-medium);
+  transition: background-color 0.3s;
+}
+
+.createBtn:hover {
+  background-color: var(--primary);
+}
+
+/* Status */
+
+.statusContainer {
+  display: flex;
+  position: relative;
+  font-family: var(--font-medium);
+  margin-top: 20px;
+  width: 100%;
+  color: var(--light);
+}
+
+.statusText {
+  text-align: center;
+  font-family: var(--font-regular);
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.statusText.active {
+  color: var(--secondary);
+  font-family: var(--font-semibold);
+}
+
+.statusLine {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: var(--status-line);
+  left: 0;
+}
+
+.statusLineTarefas,
+.statusLineConcluidas {
+  background-color: var(--secondary);
+}
+
+.taskCount {
+  font-family: var(--font-bold);
+  margin-left: 5px;
+  color: var(--secondary);
+}
+
+.statusText.vazioTarefas {
+  color: var(--light);
+  cursor: default;
+  padding-left: 5%;
+}
+
+.statusText.vazio {
+  cursor: default;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+/* Lista */
+
+.taskList {
+  padding: 0;
+  overflow-y: auto;
+}
+
+.taskItem {
+  background-color: var(--medium);
+  color: var(--lighter);
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-regular);
+  margin-bottom: 4%;
+}
+
+.taskItem.completed {
+  background-color: var(--medium);
+}
+
+.taskItem button {
+  background-color: transparent;
+  border: none;
+  color: var(--secondary);
+  cursor: pointer;
+  font-family: var(--font-medium);
+  font-size: 1.2rem;
+}
+
+.taskItem span {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.circle {
+  margin-right: 5%;
+}
+
+.circle i {
+  color: var(--secondary);
+  font-size: 20px;
+}
+
+.checked {
+  background-color: var(--secondary);
+  border: 2px solid var(--secondary);
+}
+
+.checked i {
+  color: var(--secondary);
+  font-size: 20px;
+}
+
+.completedText {
+  text-decoration: line-through;
+  color: var(--secondary);
+}
+
+.deleteBtn i {
+  font-size: 13px;
+  color: var(--light);
+}
